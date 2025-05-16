@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../../Components/Header/Header'
 import Footer from '../../Components/Footer/Footer'
+import { Link } from 'react-router-dom'
 import iconsearch from '../../Images/icons/icon-search.png'
 import iconflasf from '../../Images/icons/icon-1.png'
 import products from '../../Data/Databook'
@@ -86,14 +87,16 @@ const MainPage = () => {
                           <h3 style={{color:'#fff'}}>
                           «لودویگ ویتگنشتاین» و گونه‌های ادراک
                           </h3>
-                          <Button
-                            width='100px'
-                            background='rgba( 0 , 0, 0, 0.2)'
-                            color='deepskyblue'
-                            marginr='180px'
-                            border='none'
-                          >ادامه مقاله <Img width='20px' marginr='10px' src={iconflasf}/>
-                          </Button>
+                          <Link to='/article' style={{textDecoration:'none'}}>
+                            <Button
+                              width='100px'
+                              background='rgba( 0 , 0, 0, 0.2)'
+                              color='deepskyblue'
+                              marginr='180px'
+                              border='none'
+                            >ادامه مقاله <Img width='20px' marginr='10px' src={iconflasf}/>
+                            </Button>
+                          </Link>
                       </DivBox>
                   </div>
                   <div>
