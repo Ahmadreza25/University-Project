@@ -120,24 +120,26 @@ const MainPage = () => {
                             </div>
                         </div>
                       </Link>
-                      <div className='div_item-2'>
-                          <div className='profile'>
-                            <Img src={imgto} width='100%' borderr='50%'/>
-                          </div>
-                          <div className='div_title'>
-                              <h4>حقایقی از زندگی «جیمز بالدوین»</h4>
-                              <P font='10px'>با این مطلب همراه شوید تا درباره‌ی یکی مهم‌ترین نویسندگان آمریکایی در قرن بیستم بیشتر بدانیم.</P>
-                              <Button
-                                width='100px'
-                                background='rgba( 0 , 0, 0, 0.2)'
-                                color='rgb(17, 156, 255)'
-                                marginr='350px'
-                                border='none'
-                              >
-                              ادامه مقاله <Img width='20px' marginr='10px' src={iconflasf}/>
-                              </Button>
-                          </div>
-                      </div>
+                      <Link to='/articletree' style={{textDecoration:'none'}}>
+                        <div className='div_item-2'>
+                            <div className='profile'>
+                              <Img src={imgto} width='100%' borderr='50%'/>
+                            </div>
+                            <div className='div_title'>
+                                <h4>حقایقی از زندگی «جیمز بالدوین»</h4>
+                                <P font='10px'>با این مطلب همراه شوید تا درباره‌ی یکی مهم‌ترین نویسندگان آمریکایی در قرن بیستم بیشتر بدانیم.</P>
+                                <Button
+                                  width='100px'
+                                  background='rgba( 0 , 0, 0, 0.2)'
+                                  color='rgb(17, 156, 255)'
+                                  marginr='350px'
+                                  border='none'
+                                >
+                                ادامه مقاله <Img width='20px' marginr='10px' src={iconflasf}/>
+                                </Button>
+                            </div>
+                        </div>
+                      </Link>
                   </div>
                 </DivBox>
               <DivBox 

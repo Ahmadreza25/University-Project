@@ -4,6 +4,7 @@ import LoginPage from './Pages/LoginPage/LoginPage'
 import MainPage from './Pages/MainPage/MainPage'
 import ArticlePage from './Pages/ArticlePagewon/ArticlePage'
 import ArticlePageTo from './Pages/ArticlePageTo/ArticlePageTo'
+import ArticlePageTree from './Pages/ArticlePageTree/ArticlePageTree'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
             <Route path='/main' element={<MainPage />}/>
             <Route path='/article' element={<ArticlePage />}/>
             <Route path='/articleto' element={<ArticlePageTo />}/>
+            <Route path='/articletree' element={<ArticlePageTree/>} />
         </Routes>
       </BrowserRouter>
     </div>
