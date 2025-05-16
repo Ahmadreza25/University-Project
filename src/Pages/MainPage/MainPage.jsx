@@ -100,24 +100,26 @@ const MainPage = () => {
                       </DivBox>
                   </div>
                   <div>
-                      <div className='div_item-1'>
-                          <div className='profile'>
-                            <Img src={imgwon} width='100%' borderr='50%'/>
-                          </div>
-                          <div className='div_title'>
-                              <h4>نگاهی به کتاب «خانم دلوی» اثر «ویرجینیا وولف»</h4>
-                              <P font='10px'>رمان «خانم دلوی» به شکل عمده از «دیالوگ درونی» و «جریان سیال ذهن» (تکنیکی مدرنیستی که «وولف» یکی از پیشگامان آن بود) شکل گرفته است.</P>
-                              <Button 
-                                width='100px'
-                                background='rgba( 0 , 0, 0, 0.2)'
-                                color='rgb(17, 156, 255)'
-                                marginr='350px'
-                                border='none'
-                              >
-                              ادامه مقاله <Img width='20px' marginr='10px' src={iconflasf}/>
-                              </Button>
-                          </div>
-                      </div>
+                    <Link to='/articleto' style={{textDecoration:'none'}}>
+                        <div className='div_item-1'>
+                            <div className='profile'>
+                              <Img src={imgwon} width='100%' borderr='50%'/>
+                            </div>
+                            <div className='div_title'>
+                                <h4>نگاهی به کتاب «خانم دلوی» اثر «ویرجینیا وولف»</h4>
+                                <P font='10px'>رمان «خانم دلوی» به شکل عمده از «دیالوگ درونی» و «جریان سیال ذهن» (تکنیکی مدرنیستی که «وولف» یکی از پیشگامان آن بود) شکل گرفته است.</P>
+                                  <Button 
+                                    width='100px'
+                                    background='rgba( 0 , 0, 0, 0.2)'
+                                    color='rgb(17, 156, 255)'
+                                    marginr='350px'
+                                    border='none'
+                                  >
+                                  ادامه مقاله <Img width='20px' marginr='10px' src={iconflasf}/>
+                                  </Button>
+                            </div>
+                        </div>
+                      </Link>
                       <div className='div_item-2'>
                           <div className='profile'>
                             <Img src={imgto} width='100%' borderr='50%'/>
