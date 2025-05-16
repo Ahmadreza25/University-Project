@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from '../../Components/Header/Header'
+import Footer from '../../Components/Footer/Footer'
 import iconsearch from '../../Images/icons/icon-search.png'
 import iconflasf from '../../Images/icons/icon-1.png'
 import products from '../../Data/Databook'
@@ -17,6 +18,9 @@ import Span from './StyledMainPage/Span'
 import PItem from './StyledMainPage/PItem'
 import DivLain from './StyledMainPage/DivLain'
 import TextArea from './StyledMainPage/TeaxArea'
+import P from './StyledMainPage/P'
+import imgwon from '../../Images/img-main-page/img-2.png'
+import imgto from '../../Images/img-main-page/img-3.png'
 import './MainPage.css'
 import Button from './StyledMainPage/Button'
 
@@ -46,32 +50,96 @@ const MainPage = () => {
               marginl='100px'
               border='2px solid #707070'
               >
-              <DivBox>
-                      <Button 
-                      width='30px'
-                      background='#fff'
-                      marginr='20px'
-                      border='none'
-                      >
-                        <Img width='20px' src={iconsearch} alt="" />
-                      </Button>
-                      <Input 
-                      border='none' 
-                      width='340px' 
-                      height='25px' 
-                      marginr='20px'
-                      borderr='50px'
-                      type='text' 
-                      placeholder='جستجو کنید...'
-                      />
-              </DivBox>
+                <DivBox>
+                        <Button 
+                        width='30px'
+                        background='#fff'
+                        marginr='20px'
+                        border='none'
+                        >
+                          <Img width='20px' src={iconsearch} alt="" />
+                        </Button>
+                        <Input 
+                        border='none' 
+                        width='340px' 
+                        height='25px' 
+                        marginr='20px'
+                        borderr='50px'
+                        type='text' 
+                        placeholder='جستجو کنید...'
+                        />
+                </DivBox>
               </DivBox>
             </DivBox>
+                <DivBox
+                width='100%'
+                height='500px'
+                >
+                  <div className='div_main_item'>
+                      <DivBox 
+                      width='100%'
+                      height='50px' 
+                      background='rgba( 0 , 0, 0, 0.3)' 
+                      margint='290px' 
+                      borderr='0px 0px 10px 10px'
+                      >
+                          <h3 style={{color:'#fff'}}>
+                          «لودویگ ویتگنشتاین» و گونه‌های ادراک
+                          </h3>
+                          <Button
+                            width='100px'
+                            background='rgba( 0 , 0, 0, 0.2)'
+                            color='deepskyblue'
+                            marginr='180px'
+                            border='none'
+                          >ادامه مقاله <Img width='20px' marginr='10px' src={iconflasf}/>
+                          </Button>
+                      </DivBox>
+                  </div>
+                  <div>
+                      <div className='div_item-1'>
+                          <div className='profile'>
+                            <Img src={imgwon} width='100%' borderr='50%'/>
+                          </div>
+                          <div className='div_title'>
+                              <h4>نگاهی به کتاب «خانم دلوی» اثر «ویرجینیا وولف»</h4>
+                              <P font='10px'>رمان «خانم دلوی» به شکل عمده از «دیالوگ درونی» و «جریان سیال ذهن» (تکنیکی مدرنیستی که «وولف» یکی از پیشگامان آن بود) شکل گرفته است.</P>
+                              <Button 
+                                width='100px'
+                                background='rgba( 0 , 0, 0, 0.2)'
+                                color='rgb(17, 156, 255)'
+                                marginr='350px'
+                                border='none'
+                              >
+                              ادامه مقاله <Img width='20px' marginr='10px' src={iconflasf}/>
+                              </Button>
+                          </div>
+                      </div>
+                      <div className='div_item-2'>
+                          <div className='profile'>
+                            <Img src={imgto} width='100%' borderr='50%'/>
+                          </div>
+                          <div className='div_title'>
+                              <h4>حقایقی از زندگی «جیمز بالدوین»</h4>
+                              <P font='10px'>با این مطلب همراه شوید تا درباره‌ی یکی مهم‌ترین نویسندگان آمریکایی در قرن بیستم بیشتر بدانیم.</P>
+                              <Button
+                                width='100px'
+                                background='rgba( 0 , 0, 0, 0.2)'
+                                color='rgb(17, 156, 255)'
+                                marginr='350px'
+                                border='none'
+                              >
+                              ادامه مقاله <Img width='20px' marginr='10px' src={iconflasf}/>
+                              </Button>
+                          </div>
+                      </div>
+                  </div>
+                </DivBox>
               <DivBox 
               width='100%'
               height='400px'
               justify='space-around'
-              margint='100px'
+              margint='50px'
               >
                 <div className='item-1'>
                     <button>
@@ -154,7 +222,7 @@ const MainPage = () => {
                   </DivDisPlay>
               </DivOpinions>
               <div>
-
+                  <Footer />
               </div>
         </DivMain>
     </div>

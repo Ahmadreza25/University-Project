@@ -16,6 +16,7 @@ const Button = styled.button`
     color:${prop => prop.color};
     font-weight: 900;
     font-size: 15px;
+    z-index: 4;
 `
 
 
