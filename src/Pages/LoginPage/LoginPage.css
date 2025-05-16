@@ -1,0 +1,121 @@
+.div-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.div-center{
+    width: 900px;
+    height:550px;
+    border: 3px solid #65a5ff;
+    margin-top: 40px;
+    border-radius: 40px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    margin-left: 250px;
+}
+.nav-button{
+    width: 200px;
+    height: 500px;
+    text-align: right;
+    margin-top: 80px;
+}
+.div-login{
+    width: 450px;
+    height: 550px;
+    background-color: #ffffff;
+    border-radius: 0px 40px 40px 0px;
+}
+.main-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.main-registration{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.div-registration{
+    width: 450px;
+    height: 550px;
+    background-color: #043e71;
+    border-radius:40px;
+    color: #ffffff;
+}
+.div-registration input{
+    width: 300px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    outline: none;
+    background-color: #043e71;
+    border: 2px solid #b8b7b7;
+}
+.div-registration button{
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 40px;
+    background-color: #b8b7b7;
+    color: #ffffff;
+    
+}
+.div-btns{
+    display: flex;
+    flex-direction: column;
+}
+.div-btns button{
+    width: 200px;
+    text-align: right;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+}
+.div-title-list{
+    width: 140px;
+    height: 60px;
+    background-color: #045aa5;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    border-radius: 15px 0px 0px 15px;
+
+}
+.div-title-list h3{
+    margin-right: 10px;
+}
+.div-login input{
+    width: 300px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    outline: none;
+    background-color:#fff;
+    border: 2px solid #b8b7b7;
+}
+.div-login button{
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 140px;
+    background-color:#043e71;
+    color: #ffffff;
+}
